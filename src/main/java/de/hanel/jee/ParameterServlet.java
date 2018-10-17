@@ -15,6 +15,6 @@ public class ParameterServlet extends HttpServlet {
         resp.setCharacterEncoding("utf-8");
 
         PrintWriter writer = resp.getWriter();
-        writer.println("<html><head><title>Parameter Servlet</title><body><h1 style=\"color: orange;\">Parameter</h1></body></head></html>");
+        writer.println("<html><head><title>Parameter Servlet</title><body><h1 style=\"color: blue;\">Parameter</h1></body></head></html>");
     }
 }
